@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AWS Cloud Launch</title>
+    <meta
+      name="description"
+      content="Modern cloud landing page for an AWS-inspired website project."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <div class="brand">
+          <span class="brand-mark">AWS</span>
+          <span>Cloud Launch</span>
+        </div>
+        <div class="nav-links">
+          <a href="#solutions">Solutions</a>
+          <a href="#features">Features</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="nav-button" id="ctaButton">Get Started</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">Scalable. Secure. Simple.</p>
+          <h1>Build faster with AWS-powered cloud services.</h1>
+          <p class="hero-text">
+            Launch resilient applications, automate infrastructure, and deliver
+            exceptional digital experiences with world-class cloud performance.
+          </p>
+          <div class="hero-actions">
+            <button class="primary" id="launchBtn">Launch Project</button>
+            <button class="secondary" id="learnBtn">Learn More</button>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>99.99%</strong><span>uptime</span></li>
+            <li><strong>24/7</strong><span>support</span></li>
+            <li><strong>50+</strong><span>regions</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-panel">
+          <div class="panel-card main">
+            <span class="status-dot"></span>
+            <p class="panel-label">Deployment Status</p>
+            <h2>Healthy</h2>
+            <div class="mini-chart">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="panel-card floating">
+            <p>Traffic</p>
+            <strong>2.8M</strong>
+            <small>requests / day</small>
+          </div>
+        </div>
+      </section>
+
+      <section id="solutions" class="solutions container">
+        <div class="section-heading">
+          <p class="eyebrow">Solutions</p>
+          <h2>Everything your business needs to scale</h2>
+        </div>
+        <div class="card-grid">
+          <article class="info-card">
+            <div class="icon">⚙️</div>
+            <h3>Compute</h3>
+            <p>Elastic infrastructure for modern apps, APIs, and custom workloads.</p>
+          </article>
+          <article class="info-card">
+            <div class="icon">🔒</div>
+            <h3>Security</h3>
+            <p>Advanced identity, threat detection, and encrypted access by default.</p>
+          </article>
+          <article class="info-card">
+            <div class="icon">📊</div>
+            <h3>Analytics</h3>
+            <p>Actionable insights powered by real-time dashboards and logs.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="features">
+        <div class="container feature-layout">
+          <div class="feature-copy">
+            <p class="eyebrow">Why teams choose us</p>
+            <h2>Performance, security, and simplicity in one platform.</h2>
+            <ul>
+              <li>Fast deployment with one-click infrastructure automation</li>
+              <li>Built-in monitoring, backups, and failover protection</li>
+              <li>Flexible architecture that grows with your product</li>
+            </ul>
+          </div>
+          <div class="feature-panel">
+            <div class="metric-box">
+              <span>Latency</span>
+              <strong>42ms</strong>
+            </div>
+            <div class="metric-box accent">
+              <span>Cost Efficiency</span>
+              <strong>35% lower</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about container">
+        <div class="about-card">
+          <p class="eyebrow">About</p>
+          <h2>Built for teams that want to move with confidence.</h2>
+          <p>
+            We help startups and growing businesses ship products faster with secure,
+            resilient infrastructure that reduces operational complexity.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-content">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">AWS</span>
+            <span>Cloud Launch</span>
+          </div>
+          <p>Designing cloud experiences that scale with your vision.</p>
+        </div>
+        <a href="mailto:hello@cloudlaunch.example">hello@cloudlaunch.example</a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Cloud Launch. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
